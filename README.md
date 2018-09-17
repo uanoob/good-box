@@ -1,2 +1,2 @@
-# good-box
-Psd to html: sass &amp; grunt
+# good box
+Psd to html: sass & flex.
