@@ -1,0 +1,59 @@
+.main-header {
+  border: 1px solid orangered;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  background-color: $bg-lightgrey;
+}
+
+.main-header__button-menu {
+  margin: 0 15px;
+  width: 23px;
+  height: 17px;
+  background-color: $bg-white;
+  background-image: url('../img/menu.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.main-header__logo {
+  border: 1px solid orangered;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  background-color: $bg-orange;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.main-header__logo-image {
+  margin-top: 8px;
+}
+
+.main-header__phone {
+  border: 1px solid orangered;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+}
+
+.main-header__phone b {
+  font-weight: 700;
+}
+
+.main-header__button-phone {
+  margin: 0 15px;
+  width: 27px;
+  height: 27px;
+  background-color: $bg-orange;
+  background-image: url('../img/phone.png');
+  background-position: 6px 7px;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 5px;
+}

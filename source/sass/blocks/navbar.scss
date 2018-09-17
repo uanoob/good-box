@@ -1,0 +1,42 @@
+.navbar {
+  order: 1;
+  top: 56px;
+  left: 0;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  width: 320px;
+  background-color: $bg-darkgrey;
+  opacity: 0.95;
+}
+
+.navbar__hide {
+  display: none;
+}
+
+.navbar__list {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar__item {
+  padding: 5px 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid $bg-lightgrey;
+}
+
+.navbar__item:hover,
+.navbar__item:focus {
+  background-color: $bg-lightgrey;
+}
+
+.navbar__item a {
+  color: $bg-white;
+  text-decoration: none;
+}
+
+.navbar__item:hover a,
+.navbar__item:focus a {
+  color: $bg-black;
+}
