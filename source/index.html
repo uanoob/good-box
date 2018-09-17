@@ -173,6 +173,8 @@
               </div>
             </li>
           </ul>
+          <button class="manufacture__button--prev"><span class="visually-hidden">Prev</span></button>
+          <button class="manufacture__button--next"><span class="visually-hidden">Next</span></button>
         </div>
       </section>
       <section class="clients">
@@ -217,12 +219,56 @@
         </ul>
 
       </section>
-
-
-
-
+      <section class="reviews">
+        <h2 class="reviews__title">Отзывы о сотрудничестве</h2>
+        <ul class="reviews__list">
+          <li class="reviews__item">
+            <img src="review-1.png" alt="review-1">
+          </li>
+          <li class="reviews__item">
+            <img src="review-2.png" alt="review-2">
+          </li>
+          <li class="reviews__item">
+            <img src="review-1.png" alt="review-3">
+          </li>
+        </ul>
+        <button class="reviews__button--prev"><span class="visually-hidden">Prev</span></button>
+        <button class="reviews__button--next"><span class="visually-hidden">Next</span></button>
+      </section>
+      <section class="contacts">
+        <h2 class="visually-hidden">Наши контакты</h2>
+        <b class="contacts__office">Адрес офиса</b><br />
+        <span class="contacts__office-text">г. Уфа, Проспект октября, 46</span><br />
+        <b class="contacts__storage">Адрес склада</b><br />
+        <span class="contacts__storage-text">г. Уфа, ул. Майкопская, 65/2</span><br />
+        <b class="contacts__phone">Тел. отдела продаж:</b><br />
+        <span class="contacts__phone-1">8 (347) 271-54-28</span><br />
+        <span class="contacts__phone-2">8 (937) 363-30-00</span><br />
+        <button class="button button--orange" type="button">Заказать звонок</button>
+        <b class="contacts__email">Е-mail</b><br />
+        <span class="contacts__email-text">urals.karton@gmail.com</span>
+      </section>
+      <section class="map">
+        <h2 class="map__title visually-hidden">Как нас найти</h2>
+        <img src="image/map.png" alt="Адрес офиса: г. Уфа, Проспект октября, 46" class="map__image">
+      </section>
     </main>
 
+    <footer class="footer">
+      <span class="footer__copyright">&copy; www.gofra-ural.ru 2016, все права защищены</span>
+    </footer>
+
+    <section class="modal">
+      <h2 class="modal__feedback">Форма обратной связи</h2>
+      <h3 class="modal__title">Получите индивидуальное предложение</h3>
+      <h4 class="modal__subtitle">на производство и поставку изделий</h4>
+      <form class="modal__form">
+        <label for="modal__phone">Введите ваш номер телефона:</label>
+        <input class="modal__phone" type="tel" id="modal__phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+        <button class="button button-orange" type="submit">Оставить заявку!</button>
+        <small><sup>*</sup> Минимальный заказ 500шт</small>
+      </form>
+    </section>
   </div>
 
   <script src="js/app.min.js"></script>
