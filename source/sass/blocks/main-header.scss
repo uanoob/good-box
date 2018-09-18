@@ -1,10 +1,9 @@
 .main-header {
   border: 1px solid orangered;
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
   padding: 10px 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   background-color: $bg-lightgrey;
 }

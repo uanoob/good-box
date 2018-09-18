@@ -1,0 +1,74 @@
+.intro {
+  padding: 45px 15px 50px 15px;
+  text-align: center;
+  color: $bg-white;
+  background-color: $bg-darkgrey;
+  background-image: url('../img/boxes-mobile.jpg');
+}
+
+.intro__header {
+  margin: 0;
+  margin-bottom: 5px;
+  color: $bg-orange;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.intro__subheader {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.intro__desc {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 300;
+}
+
+.intro__gift {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.intro__form-phone {
+  margin-bottom: 13px;
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 300;
+  border: none;
+  border-radius: 5px;
+}
+
+.intro__button {
+  padding: 15px 0;
+  width: 180px;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  background-color: $bg-orange;
+  border-radius: 5px;
+}
+
+.intro__order {
+  font-size: 13px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+@media (min-width: $tablet-width) {
+  .intro {
+    background-image: url('../img/boxes-desktop.jpg');
+  }
+}
