@@ -70,7 +70,7 @@
         <form class="intro__form">
           <input class="intro__form-phone" type="tel" id="intro__form-phone" placeholder="Введите номер телефона">
           <label class="visually-hidden" for="intro__form-phone">Введите номер телефона</label>
-          <button class="button intro__button" type="submit">Оставить заявку!</button><br />
+          <button class="button button--orange intro__button" type="submit">Оставить заявку!</button><br />
           <small class="intro__order"><sup>*</sup> Минимальный заказ 500шт</small>
         </form>
       </section>
@@ -121,36 +121,52 @@
         <h2 class="products__title">Наша продукция</h2>
         <ul class="products__list">
           <li class="products__item">
-            <div class="products__item-image">
-              <img src="image/box-1.png" alt="Гофрокороб 4-х клапанный">
-            </div>
+            <picture class="products__item-image">
+              <source media="(min-width: 660px)" srcset="img/box-valve-desktop.png">
+              <img src="img/box-valve.png" alt="Гофрокороб 4-х клапанный">
+            </picture>
             <h3 class="products__item-title">Гофрокороб 4-х клапанный</h3>
-            <button class="button products__button" type="button">Подробнее</button>
-            <button class="button products__button products__button--orange" type="button">Получить расчет</button>
+            <div class="products__buttons">
+              <button class="button button--o products__button products__button--more" type="button">Подробнее</button>
+              <button class="button button--orange products__button products__button--calc" type="button">Получить
+                расчет</button>
+            </div>
           </li>
           <li class="products__item">
-            <div class="products__item-image">
-              <img src="image/box-2.png" alt="Гофролоток">
-            </div>
+            <picture class="products__item-image">
+              <source media="(min-width: 660px)" srcset="img/box-tray-desktop.png">
+              <img src="img/box-tray.png" alt="Гофролоток">
+            </picture>
             <h3 class="products__item-title">Гофролоток</h3>
-            <button class="button products__button" type="button">Подробнее</button>
-            <button class="button products__button products__button--orange" type="button">Получить расчет</button>
+            <div class="products__buttons">
+              <button class="button button--o products__button products__button--more" type="button">Подробнее</button>
+              <button class="button button--orange products__button products__button--calc" type="button">Получить
+                расчет</button>
+            </div>
           </li>
           <li class="products__item">
-            <div class="products__item-image">
-              <img src="image/box-3.png" alt="Гофрокороб самосборный (сложная высечка)">
-            </div>
+            <picture class="products__item-image">
+              <source media="(min-width: 660px)" srcset="img/box-self-desktop.png">
+              <img src="img/box-self.png" alt="Гофрокороб самосборный (сложная высечка)">
+            </picture>
             <h3 class="products__item-title">Гофрокороб самосборный (сложная высечка)</h3>
-            <button class="button products__button" type="button">Подробнее</button>
-            <button class="button products__button products__button--orange" type="button">Получить расчет</button>
+            <div class="products__buttons">
+              <button class="button button--o products__button products__button--more" type="button">Подробнее</button>
+              <button class="button button--orange products__button products__button--calc" type="button">Получить
+                расчет</button>
+            </div>
           </li>
           <li class="products__item">
-            <div class="products__item-image">
-              <img src="image/box-4.png" alt="Листовой гофрокартон">
-            </div>
+            <picture class="products__item-image">
+              <source media="(min-width: 660px)" srcset="img/box-flat-desktop.png">
+              <img src="img/box-flat.png" alt="Листовой гофрокартон">
+            </picture>
             <h3 class="products__item-title">Листовой гофрокартон</h3>
-            <button class="button products__button" type="button">Подробнее</button>
-            <button class="button button-orange products__button " type="button">Получить расчет</button>
+            <div class="products__buttons">
+              <button class="button button--o products__button products__button--more" type="button">Подробнее</button>
+              <button class="button button--orange products__button products__button--calc " type="button">Получить
+                расчет</button>
+            </div>
           </li>
         </ul>
       </section>
@@ -160,7 +176,7 @@
         <form class="proposal__form">
           <label for="proposal__phone">Введите ваш номер телефона:</label>
           <input class="proposal__phone" type="tel" id="proposal__phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
-          <button class="button button-orange" type="submit">Оставить заявку!</button>
+          <button class="button button--orange proposal__button" type="submit">Оставить заявку!</button><br />
           <small><sup>*</sup> Минимальный заказ 500шт</small>
         </form>
       </section>
