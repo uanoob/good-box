@@ -1,0 +1,23 @@
+.reviews {
+  border: 1px solid orangered;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-color: $bg-lightgrey;
+}
+
+.reviews__title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.reviews__list {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

@@ -1,0 +1,54 @@
+.slider {
+  position: relative;
+}
+
+.slider__button {
+  position: absolute;
+  top: 50%;
+  margin-top: -39px;
+  width: 22px;
+  height: 78px;
+  border: none;
+  outline: none;
+  background-color: $bg-orange;
+  background-position: 0 4px;
+  background-repeat: no-repeat;
+}
+
+.slider__button:hover {
+  cursor: pointer;
+}
+
+.slider__button--prev {
+  left: 0;
+}
+
+.slider__button--next {
+  right: 0;
+}
+
+.slider__button--prev::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  margin-top: -10px;
+  width: 6px;
+  height: 19px;
+  background-image: url('../img/left-arrow.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.slider__button--next::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  margin-top: -10px;
+  width: 6px;
+  height: 19px;
+  background-image: url('../img/right-arrow.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
