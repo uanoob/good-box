@@ -282,37 +282,39 @@
         <button class="slider__button slider__button--next"><span class="visually-hidden">Next</span></button>
       </section>
       <section class="contacts">
-        <h2 class="visually-hidden">Наши контакты</h2>
-        <b class="contacts__office">Адрес офиса</b><br />
-        <span class="contacts__office-text">г. Уфа, Проспект октября, 46</span><br />
-        <b class="contacts__storage">Адрес склада</b><br />
-        <span class="contacts__storage-text">г. Уфа, ул. Майкопская, 65/2</span><br />
-        <b class="contacts__phone">Тел. отдела продаж:</b><br />
-        <span class="contacts__phone-1">8 (347) 271-54-28</span><br />
-        <span class="contacts__phone-2">8 (937) 363-30-00</span><br />
-        <button class="button button--orange" type="button">Заказать звонок</button>
-        <b class="contacts__email">Е-mail</b><br />
-        <span class="contacts__email-text">urals.karton@gmail.com</span>
+        <h2 class="contacts__title">Контакты</h2>
+        <h3 class="contacts__subtitle">Адрес офиса</h3>
+        <span class="contacts__text contacts__text--office">г. Уфа, Проспект октября, 46</span>
+        <h3 class="contacts__subtitle">Адрес склада</h3>
+        <span class="contacts__text contacts__text--storage">г. Уфа, ул. Майкопская, 65/2</span>
+        <h3 class="contacts__subtitle">Тел. отдела продаж:</h3>
+        <span class="contacts__text contacts__text--phone">8 (347) 271-54-28</span><br />
+        <span class="contacts__text">8 (937) 363-30-00</span><br />
+        <button class="button button--orange contacts__button" type="button">Заказать звонок</button>
+        <h3 class="contacts__subtitle">Е-mail</h3>
+        <span class="contacts__text">urals.karton@gmail.com</span>
       </section>
       <section class="map">
         <h2 class="map__title visually-hidden">Как нас найти</h2>
-        <img src="image/map.png" alt="Адрес офиса: г. Уфа, Проспект октября, 46" class="map__image">
+        <img src="img/map.jpg" alt="Адрес офиса: г. Уфа, Проспект октября, 46" class="map__image">
       </section>
     </main>
 
     <footer class="footer">
-      <span class="footer__copyright">&copy; www.gofra-ural.ru 2016, все права защищены</span>
+      <span class="footer__copyright">&copy; www.gofra-ural.ru 2018, все права защищены</span>
     </footer>
 
-    <section class="modal">
-      <h2 class="modal__feedback">Форма обратной связи</h2>
-      <h3 class="modal__title">Получите индивидуальное предложение</h3>
-      <h4 class="modal__subtitle">на производство и поставку изделий</h4>
-      <form class="modal__form">
-        <label for="modal__phone">Введите ваш номер телефона:</label>
-        <input class="modal__phone" type="tel" id="modal__phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
-        <button class="button button-orange" type="submit">Оставить заявку!</button>
-        <small><sup>*</sup> Минимальный заказ 500шт</small>
+    <section class="modal-feedback">
+      <h2 class="modal-feedback__title">Форма обратной связи</h2>
+      <h3 class="modal-feedback__subtitle">Получите индивидуальное предложение</h3>
+      <h4 class="modal-feedback__offer">на производство и поставку изделий</h4>
+      <form class="modal-feedback__form">
+        <label class="modal-feedback__form-label" for="modal-feedback__phone">Введите ваш номер телефона:</label>
+        <div class="modal-feedback__form-wrap">
+          <input class="modal-feedback__phone" type="tel" id="modal-feedback__phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+          <button class="button button--orange modal-feedback__button" type="submit">Оставить заявку!</button>
+        </div>
+        <small class="modal-feedback__order"><sup>*</sup> Минимальный заказ 500шт</small>
       </form>
     </section>
   </div>
