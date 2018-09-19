@@ -6,6 +6,10 @@
   background-image: url('../img/boxes-mobile.jpg');
 }
 
+.intro__image {
+  display: none;
+}
+
 .intro__header {
   margin: 0;
   margin-bottom: 5px;
@@ -66,6 +70,73 @@
 
 @media (min-width: $tablet-width) {
   .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    padding-top: 60px;
+    padding-bottom: 80px;
     background-image: url('../img/boxes-desktop.jpg');
+  }
+
+  .intro__image {
+    display: block;
+    margin-right: 30px;
+  }
+
+  .intro__wrap {
+    border: 1px solid orangered;
+    max-width: 536px;
+    box-sizing: border-box;
+    text-align: left;
+  }
+
+  .intro__wrap::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -510px;
+    width: 480px;
+    height: 378px;
+    background-image: url('../img/boxes.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+  }
+
+  .intro__header {
+    font-size: 41px;
+    line-height: 42px;
+    color: $bg-white;
+  }
+
+  .intro__subheader {
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+  .intro__form-phone {
+    width: auto;
+  }
+
+  .intro__desc {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .intro__gift {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .intro__form-phone {
+    margin-right: 10px;
+    padding-left: 15px;
+    width: 310px;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .intro__order {
+    font-size: 14px;
   }
 }

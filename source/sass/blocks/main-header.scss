@@ -3,9 +3,13 @@
   position: relative;
   padding: 10px 0;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  flex-direction: column;
   background-color: $bg-lightgrey;
+}
+
+.main-header__wrap {
+  display: flex;
+  align-items: center;
 }
 
 .main-header__button-menu {
@@ -55,4 +59,61 @@
   background-repeat: no-repeat;
   border: none;
   border-radius: 5px;
+}
+
+.main-header__order {
+  @include small;
+}
+
+@media (min-width: $tablet-width) {
+  .main-header {
+    display: block;
+    padding: 0;
+  }
+
+  .main-header__wrap {
+    border: 1px solid orangered;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 940px;
+  }
+
+  .main-header__button-menu {
+    display: none;
+  }
+
+  .main-header__logo {
+    width: 191px;
+    height: 61px;
+    background-color: inherit;
+  }
+
+  .main-header__phone {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 500;
+  }
+
+  .main-header__button-phone {
+    padding: 15px 20px;
+    padding-left: 45px;
+    width: 180px;
+    height: auto;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    background-image: url('../img/phone_desktop.png');
+    background-position: 15px 14px;
+  }
+
+  .main-header__order {
+    display: block;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-header__phone {
+    display: flex;
+    flex-direction: row;
+  }
 }

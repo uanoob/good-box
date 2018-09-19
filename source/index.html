@@ -44,35 +44,42 @@
           </li>
         </ul>
       </nav>
-      <button class="button main-header__button-menu"><span class="visually-hidden">Открыть меню</span></button>
-      <div class="main-header__logo">
-        <picture>
-          <source media="(min-width: 660px)" srcset="img/logo-desktop.png">
-          <img class="main-header__logo-image" src="img/logo-mobile.png" alt="Logo good box">
-        </picture>
+      <div class="main-header__wrap">
+        <button class="button main-header__button-menu"><span class="visually-hidden">Открыть меню</span></button>
+        <div class="main-header__logo">
+          <picture>
+            <source media="(min-width: 660px)" srcset="img/logo-desktop.png">
+            <img class="main-header__logo-image" src="img/logo-mobile.png" alt="Logo good box">
+          </picture>
+        </div>
+        <div class="main-header__phone">
+          <span>8 (347) <b>271-54-28</b></span>
+          <span>8 (937) <b>363-30-00</b></span>
+        </div>
+        <button class="button button--orange main-header__button-phone" type="button"><span class="main-header__order">Заказать
+            звонок</span></button>
       </div>
-      <div class="main-header__phone">
-        <span>8 (347) <b>271-54-28</b></span>
-        <span>8 (937) <b>363-30-00</b></span>
-      </div>
-      <button class="button button--orange main-header__button-phone" type="button"><span class="visually-hidden">Заказать
-          звонок</span></button>
     </header>
 
     <main class="main-content">
       <section class="intro">
-        <h1 class="intro__header">Производство упаковки из гофрокартона</h1>
-        <h2 class="intro__subheader">с доставкой по всей России</h2>
-        <p class="intro__desc">
-          Получите индивидуальное предложение на производство и поставку гофропродукции
-        </p>
-        <p class="intro__gift">Образцы упаковки бесплатно!</p>
-        <form class="intro__form">
-          <input class="intro__form-phone" type="tel" id="intro__form-phone" placeholder="Введите номер телефона">
-          <label class="visually-hidden" for="intro__form-phone">Введите номер телефона</label>
-          <button class="button button--orange intro__button" type="submit">Оставить заявку!</button><br />
-          <small class="intro__order"><sup>*</sup> Минимальный заказ 500шт</small>
-        </form>
+        <div class="intro__image">
+          <img src="../img/boxes.png" alt="Коробки">
+        </div>
+        <div class="intro__wrap">
+          <h1 class="intro__header">Производство упаковки из гофрокартона</h1>
+          <h2 class="intro__subheader">с доставкой по всей России</h2>
+          <p class="intro__desc">
+            Получите индивидуальное предложение на производство и поставку гофропродукции
+          </p>
+          <p class="intro__gift">Образцы упаковки бесплатно!</p>
+          <form class="intro__form">
+            <input class="intro__form-phone" type="tel" id="intro__form-phone" placeholder="Введите номер телефона">
+            <label class="visually-hidden" for="intro__form-phone">Введите номер телефона</label>
+            <button class="button button--orange intro__button" type="submit">Оставить заявку!</button><br />
+            <small class="intro__order"><sup>*</sup> Минимальный заказ 500шт</small>
+          </form>
+        </div>
       </section>
       <section class="features">
         <div class="features__figures">
