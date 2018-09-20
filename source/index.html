@@ -185,27 +185,34 @@
         <form class="proposal__form">
           <label for="proposal__phone">Введите ваш номер телефона:</label>
           <input class="proposal__phone" type="tel" id="proposal__phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
-          <button class="button button--orange proposal__button" type="submit">Оставить заявку!</button><br />
-          <small><sup>*</sup> Минимальный заказ 500шт</small>
+          <button class="button button--orange proposal__button" type="submit">Оставить заявку!</button>
+          <small class="proposal__order"><sup>*</sup> Минимальный заказ 500шт</small>
         </form>
       </section>
       <section class="factory">
-        <h2 class="factory__title">Производство</h2>
-        <p class="factory__desc">
-          Современное оборудование позволяет произ- водить до 5 миллионов квадратных метров гофрокартона ежемесячно.
-          Гофрокороба и лотки производятся по ГОСТу или чертежам заказчика.
-        </p>
-        <p class="factory__desc">
-          Досконально прорабатываем конструкции коро- бов и составы сырья, учитывая условия хранения, транспортировки и
-          производства вашей продукции.
-        </p>
-        <p class="factory__desc">
-          Возможно нанесение цветной флексопечати на поверхность коробов.
-        </p>
-        <div class="slider">
-          <div class="factory__big-image">
-            <img src="img/machine.jpg" alt="Производство">
+        <div class="factory__wrap">
+          <div class="factory__text">
+            <h2 class="factory__title">Производство</h2>
+            <p class="factory__desc">
+              Современное оборудование позволяет произ- водить до 5 миллионов квадратных метров гофрокартона
+              ежемесячно.
+              Гофрокороба и лотки производятся по ГОСТу или чертежам заказчика.
+            </p>
+            <p class="factory__desc">
+              Досконально прорабатываем конструкции коробов и составы сырья, учитывая условия хранения, транспортировки
+              и
+              производства вашей продукции.
+            </p>
+            <p class="factory__desc">
+              Возможно нанесение цветной флексопечати на поверхность коробов.
+            </p>
           </div>
+          <picture class="factory__big-image">
+            <source media="(min-width: 660px)" srcset="img/machine_desktop.jpg">
+            <img src="img/machine_mobile.jpg" alt="Производство">
+          </picture>
+        </div>
+        <div class="factory__slider slider">
           <ul class="factory__list">
             <li class="factory__item">
               <div class="factory__item-image">
