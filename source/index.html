@@ -281,44 +281,61 @@
         </ul>
 
       </section>
-      <section class="reviews slider">
+      <section class="reviews">
         <h2 class="reviews__title">Отзывы о сотрудничестве</h2>
-        <ul class="reviews__list">
-          <li class="reviews__item">
-            <img src="img/review-1.jpg" alt="review-1">
-          </li>
-          <li class="reviews__item">
-            <img src="img/review-2.jpg" alt="review-2">
-          </li>
-          <li class="reviews__item">
-            <img src="img/review-1.jpg" alt="review-3">
-          </li>
-        </ul>
-        <button class="slider__button slider__button--prev"><span class="visually-hidden">Prev</span></button>
-        <button class="slider__button slider__button--next"><span class="visually-hidden">Next</span></button>
+        <div class="reviews__wrap slider">
+          <ul class="reviews__list">
+            <li class="reviews__item">
+              <img src="img/review-1.jpg" alt="review-1">
+            </li>
+            <li class="reviews__item">
+              <img src="img/review-2.jpg" alt="review-2">
+            </li>
+            <li class="reviews__item">
+              <img src="img/review-1.jpg" alt="review-3">
+            </li>
+          </ul>
+          <button class="slider__button slider__button--prev"><span class="visually-hidden">Prev</span></button>
+          <button class="slider__button slider__button--next"><span class="visually-hidden">Next</span></button>
+        </div>
       </section>
       <section class="contacts">
-        <h2 class="contacts__title">Контакты</h2>
-        <h3 class="contacts__subtitle">Адрес офиса</h3>
-        <span class="contacts__text contacts__text--office">г. Уфа, Проспект октября, 46</span>
-        <h3 class="contacts__subtitle">Адрес склада</h3>
-        <span class="contacts__text contacts__text--storage">г. Уфа, ул. Майкопская, 65/2</span>
-        <h3 class="contacts__subtitle">Тел. отдела продаж:</h3>
-        <span class="contacts__text contacts__text--phone">8 (347) 271-54-28</span><br />
-        <span class="contacts__text">8 (937) 363-30-00</span><br />
-        <button class="button button--orange contacts__button" type="button">Заказать звонок</button>
-        <h3 class="contacts__subtitle">Е-mail</h3>
-        <span class="contacts__text">urals.karton@gmail.com</span>
-      </section>
-      <section class="map">
-        <h2 class="map__title visually-hidden">Как нас найти</h2>
-        <img src="img/map.jpg" alt="Адрес офиса: г. Уфа, Проспект октября, 46" class="map__image">
+        <div class="contacts__wrap">
+          <h2 class="contacts__title">Контакты</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item contacts__item--office">
+              <h3 class="contacts__item-title">Адрес офиса</h3>
+              <div class="contacts__desc">г. Уфа, Проспект октября, 46</div>
+            </li>
+            <li class="contacts__item">
+              <h3 class="contacts__item-title">Адрес склада</h3>
+              <div class="contacts__desc">г. Уфа, ул. Майкопская, 65/2</div>
+            </li>
+            <li class="contacts__item contacts__item--phone">
+              <h3 class="contacts__item-title">Тел. отдела продаж:</h3>
+              <div class="contacts__desc">8 (347) 271-54-28</div>
+              <div class="contacts__desc">8 (937) 363-30-00</div>
+            </li>
+            <li class="contacts__item contacts__item--email">
+              <h3 class="contacts__item-title">Е-mail</h3>
+              <div class="contacts__desc">urals.karton@gmail.com</div>
+            </li>
+            <li class="contacts__item">
+              <button class="button button--orange contacts__button" type="button">Заказать звонок</button>
+            </li>
+          </ul>
+        </div>
+        <picture class="contacts__map-image">
+          <img src="img/map_mobile.jpg" alt="Адрес офиса: г. Уфа, Проспект октября, 46">
+        </picture>
       </section>
     </main>
 
     <footer class="footer">
       <span class="footer__copyright">&copy; www.gofra-ural.ru 2018, все права защищены</span>
     </footer>
+
+    <div class="overlay"></div>
 
     <section class="modal-feedback">
       <h2 class="modal-feedback__title">Форма обратной связи</h2>
@@ -332,6 +349,7 @@
         </div>
         <small class="modal-feedback__order"><sup>*</sup> Минимальный заказ 500шт</small>
       </form>
+      <button class="modal-feedback__close" type="button"><span class="visually-hidden">Закрыть</span></button>
     </section>
   </div>
 

@@ -39,3 +39,28 @@
   border: 1px solid orangered;
   
 }
+
+@media (min-width: $tablet-width) {
+  .clients {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 0;
+    max-width: 970px;
+  }
+
+  .clients__title {
+    margin-bottom: 45px;
+    padding-top: 40px;
+    font-size: 27px;
+  }
+
+  .clients__list {
+    justify-content: center;
+  }
+
+  .clients__item {
+    margin: 0 15px;
+    margin-bottom: 30px;
+    width: 210px;
+  }
+}
