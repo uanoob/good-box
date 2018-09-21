@@ -131,7 +131,6 @@ input[type="radio"].visually-hidden {
   background-repeat: no-repeat; }
 
 .main-header {
-  border: 1px solid orangered;
   position: relative;
   padding: 10px 0;
   display: flex;
@@ -152,7 +151,6 @@ input[type="radio"].visually-hidden {
   background-repeat: no-repeat; }
 
 .main-header__logo {
-  border: 1px solid orangered;
   width: 35px;
   height: 35px;
   text-align: center;
@@ -165,7 +163,6 @@ input[type="radio"].visually-hidden {
   margin-top: 8px; }
 
 .main-header__phone {
-  border: 1px solid orangered;
   margin-left: auto;
   display: flex;
   flex-direction: column;
@@ -203,7 +200,6 @@ input[type="radio"].visually-hidden {
     display: block;
     padding: 0; }
   .main-header__wrap {
-    border: 1px solid orangered;
     margin: 0 auto;
     padding: 15px;
     max-width: 940px; }
@@ -380,7 +376,6 @@ input[type="radio"].visually-hidden {
     display: block;
     margin-right: 30px; }
   .intro__wrap {
-    border: 1px solid orangered;
     max-width: 536px;
     box-sizing: border-box;
     text-align: left; }
@@ -533,7 +528,6 @@ input[type="radio"].visually-hidden {
     line-height: 19px; } }
 
 .products {
-  border: 1px solid orangered;
   padding: 0 15px;
   padding-top: 30px;
   padding-bottom: 40px; }
@@ -690,7 +684,6 @@ input[type="radio"].visually-hidden {
     font-size: 14px; } }
 
 .factory {
-  border: 1px solid orangered;
   margin-bottom: 25px;
   padding: 0 15px;
   text-align: center; }
@@ -756,7 +749,6 @@ input[type="radio"].visually-hidden {
     width: 115px; } }
 
 .clients {
-  border: 1px solid orangered;
   padding: 0 15px;
   padding-top: 25px;
   padding-bottom: 17px; }
@@ -788,9 +780,6 @@ input[type="radio"].visually-hidden {
   border: 1px solid #9d9d9d;
   box-sizing: border-box; }
 
-.clients__item img {
-  border: 1px solid orangered; }
-
 @media (min-width: 660px) {
   .clients {
     margin: 0 auto;
@@ -809,7 +798,6 @@ input[type="radio"].visually-hidden {
     width: 210px; } }
 
 .reviews {
-  border: 1px solid orangered;
   padding-bottom: 40px;
   background-color: #f4f4f4; }
 
@@ -842,16 +830,13 @@ input[type="radio"].visually-hidden {
     font-size: 27px;
     line-height: 18px; }
   .reviews__list {
-    border: 1px solid orangered;
     flex-direction: row;
     justify-content: center; }
   .reviews__item {
-    border: 1px solid orangered;
     margin: 0 15px;
     max-width: 290px; } }
 
 .contacts {
-  border: 1px solid orangered;
   padding: 0 15px;
   padding-top: 30px;
   padding-bottom: 15px;
@@ -898,7 +883,6 @@ input[type="radio"].visually-hidden {
     padding: 0;
     background-image: url("../img/map_desktop.jpg"); }
   .contacts__wrap {
-    border: 1px solid orangered;
     margin: 0 auto;
     margin-top: 90px;
     margin-bottom: 90px;
@@ -934,7 +918,6 @@ input[type="radio"].visually-hidden {
     display: none; } }
 
 .footer {
-  border: 1px solid orangered;
   padding: 35px 0;
   font-size: 11px;
   line-height: 17px;
