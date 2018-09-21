@@ -1,12 +1,3 @@
-@mixin no-outline() {
-  outline: none;
-  background: transparent;
-
-  // &::before {
-  //   display: none;
-  // }
-}
-
 @mixin visually-hidden() {
   position: absolute;
   width: 1px;

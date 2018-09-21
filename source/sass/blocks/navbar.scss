@@ -71,7 +71,7 @@
   }
 
   .navbar__item:hover::after,
-  .navbar__item:focus::after   {
+  .navbar__item:focus::after {
     content: '';
     position: absolute;
     left: 0;
