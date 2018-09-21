@@ -1,5 +1,4 @@
 .products {
-  border: 1px solid orangered;
   padding: 0 15px;
   padding-top: 30px;
   padding-bottom: 40px;
@@ -16,14 +15,12 @@
 }
 
 .products__list {
-  // border: 1px solid orangered;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .products__item {
-  // border: 1px solid orangered;
   margin-bottom: 20px;
 }
 
@@ -42,7 +39,6 @@
 }
 
 .products__buttons {
-  // border: 1px solid orangered;
   display: flex;
   justify-content: center;
 }
@@ -68,7 +64,7 @@
     padding-top: 45px;
     padding-bottom: 70px;
   }
-  
+
   .products__title {
     font-size: 27px;
   }
@@ -100,7 +96,7 @@
     margin-right: 15px;
     width: 125px;
   }
-  
+
   .products__button--calc {
     width: 170px;
   }

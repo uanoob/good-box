@@ -1,5 +1,4 @@
 .modal-feedback {
-  // border: 1px solid orangered;
   display: none;
   z-index: 7;
   position: fixed;
@@ -48,12 +47,10 @@
 }
 
 .modal-feedback__form {
-  // border: 1px solid orangered;
   text-align: center;
 }
 
 .modal-feedback__form-label {
-  // border: 1px solid orangered;
   margin-bottom: 10px;
   display: inline-block;
   font-size: 20px;
@@ -62,7 +59,6 @@
 }
 
 .modal-feedback__phone {
-  // border: 1px solid orangered;
   margin-right: 15px;
   padding: 20px 0;
   padding-left: 15px;
@@ -136,5 +132,4 @@
     top: 10px;
     right: 20px;
   }
-  
 }

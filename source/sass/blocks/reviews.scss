@@ -1,5 +1,4 @@
 .reviews {
-  border: 1px solid orangered;
   padding-bottom: 40px;
   background-color: $bg-lightgrey;
 }
@@ -41,13 +40,11 @@
   }
 
   .reviews__list {
-    border: 1px solid orangered;
     flex-direction: row;
     justify-content: center;
   }
 
   .reviews__item {
-    border: 1px solid orangered;
     margin: 0 15px;
     max-width: 290px;
   }
