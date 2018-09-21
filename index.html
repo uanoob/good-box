@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Good Box</title>
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="main-header">
+      <nav class="navbar">
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">О компании</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Преимущества</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Производство</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Склад</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Продукция</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Наши клиенты</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Сертификаты</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Отзывы</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="main-header__wrap">
+        <button class="button main-header__button-menu"><span class="visually-hidden">Открыть меню</span></button>
+        <div class="main-header__logo">
+          <picture>
+            <source media="(min-width: 660px)" srcset="img/logo-desktop.png">
+            <img class="main-header__logo-image" src="img/logo-mobile.png" alt="Logo good box">
+          </picture>
+        </div>
+        <div class="main-header__phone">
+          <span>8 (347) <b>271-54-28</b></span>
+          <span>8 (937) <b>363-30-00</b></span>
+        </div>
+        <button class="button button--orange main-header__button-phone" type="button"><span class="main-header__order">Заказать
+            звонок</span></button>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="intro">
+        <div class="intro__image">
+          <img src="../img/boxes.png" alt="Коробки">
+        </div>
+        <div class="intro__wrap">
+          <h1 class="intro__header">Производство упаковки из гофрокартона</h1>
+          <h2 class="intro__subheader">с доставкой по всей России</h2>
+          <p class="intro__desc">
+            Получите индивидуальное предложение на производство и поставку гофропродукции
+          </p>
+          <p class="intro__gift">Образцы упаковки бесплатно!</p>
+          <form class="intro__form">
+            <input class="intro__form-phone" type="tel" id="intro__form-phone" placeholder="Введите номер телефона">
+            <label class="visually-hidden" for="intro__form-phone">Введите номер телефона</label>
+            <button class="button button--orange intro__button" type="submit">Оставить заявку!</button><br>
+            <small class="intro__order"><sup>*</sup> Минимальный заказ 500шт</small>
+          </form>
+        </div>
+      </section>
+      <section class="features">
+        <div class="features__wrap">
+          <div class="features__figures">
+            <h2 class="features__title">5 лет</h2>
+            <p class="features__desc">На рынке изделий из гофрокартона</p>
+          </div>
+          <div class="features__figures">
+            <h2 class="features__title">до 5 000 000 м2</h2>
+            <p class="features__desc">Ежемесячный объем производства гофрокартона</p>
+          </div>
+          <div class="features__figures">
+            <h2 class="features__title">4 000 м2</h2>
+            <p class="features__desc">Площадь склада</p>
+          </div>
+        </div>
+        <ul class="features__list">
+          <li class="features__item features__item--plant">
+            <h3 class="features__item-title">Собственное производство</h3>
+            <p class="features__item-desc">4 технологические линии способны выполнить любой заказ любой сложности</p>
+          </li>
+          <li class="features__item features__item--gifts">
+            <h3 class="features__item-title">Бесплатные образцы</h3>
+            <p class="features__item-desc">Бесплатно делаем образцы гофроупаковки - это помогает заранее увидеть
+              упаковку</p>
+          </li>
+          <li class="features__item features__item--quality">
+            <h3 class="features__item-title">Стабильное качество</h3>
+            <p class="features__item-desc">Собственная лаборатория контролирует качество на каждом этапе производства</p>
+          </li>
+          <li class="features__item features__item--stock">
+            <h3 class="features__item-title">Страховой запас</h3>
+            <p class="features__item-desc">Можем хранить запас гофропродукции на своих складах и поставлять его
+              партиями</p>
+          </li>
+          <li class="features__item features__item--print">
+            <h3 class="features__item-title">Флексопечать</h3>
+            <p class="features__item-desc">Возможно нанесение вашего логотипа, текста или манипуляционных знаков</p>
+          </li>
+          <li class="features__item features__item--waterproof">
+            <h3 class="features__item-title">Гидрофобные добавки</h3>
+            <p class="features__item-desc">На производстве реализована технология, которая позволяет гофрокартону стать
+              прочнее</p>
+          </li>
+        </ul>
+      </section>
+      <section class="products">
+        <h2 class="products__title">Наша продукция</h2>
+        <ul class="products__list">
+          <li class="products__item">
+            <picture class="products__item-image">
+              <source media="(min-width: 660px)" srcset="img/box-valve-desktop.png">
+              <img src="img/box-valve.png" alt="Гофрокороб 4-х клапанный">
+            </picture>
+            <h3 class="products__item-title">Гофрокороб 4-х клапанный</h3>
+            <div class="products__buttons">
+              <button class="button button--o products__button products__button--more" type="button">Подробнее</button>
+              <button class="button button--orange products__button products__button--calc" type="button">Получить
+                расчет</button>
+            </div>
+          </li>
+          <li class="products__item">
+            <picture class="products__item-image">
+              <source media="(min-width: 660px)" srcset="img/box-tray-desktop.png">
+              <img src="img/box-tray.png" alt="Гофролоток">
+            </picture>
+            <h3 class="products__item-title">Гофролоток</h3>
+            <div class="products__buttons">
+              <button class="button button--o products__button products__button--more" type="button">Подробнее</button>
+              <button class="button button--orange products__button products__button--calc" type="button">Получить
+                расчет</button>
+            </div>
+          </li>
+          <li class="products__item">
+            <picture class="products__item-image">
+              <source media="(min-width: 660px)" srcset="img/box-self-desktop.png">
+              <img src="img/box-self.png" alt="Гофрокороб самосборный (сложная высечка)">
+            </picture>
+            <h3 class="products__item-title">Гофрокороб самосборный (сложная высечка)</h3>
+            <div class="products__buttons">
+              <button class="button button--o products__button products__button--more" type="button">Подробнее</button>
+              <button class="button button--orange products__button products__button--calc" type="button">Получить
+                расчет</button>
+            </div>
+          </li>
+          <li class="products__item">
+            <picture class="products__item-image">
+              <source media="(min-width: 660px)" srcset="img/box-flat-desktop.png">
+              <img src="img/box-flat.png" alt="Листовой гофрокартон">
+            </picture>
+            <h3 class="products__item-title">Листовой гофрокартон</h3>
+            <div class="products__buttons">
+              <button class="button button--o products__button products__button--more" type="button">Подробнее</button>
+              <button class="button button--orange products__button products__button--calc " type="button">Получить
+                расчет</button>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="proposal">
+        <h2 class="proposal__title">Получите индивидуальное предложение</h2>
+        <h3 class="proposal__subtitle">на производство и поставку изделий</h3>
+        <form class="proposal__form">
+          <label for="proposal__phone">Введите ваш номер телефона:</label>
+          <input class="proposal__phone" type="tel" id="proposal__phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+          <button class="button button--orange proposal__button" type="submit">Оставить заявку!</button>
+          <small class="proposal__order"><sup>*</sup> Минимальный заказ 500шт</small>
+        </form>
+      </section>
+      <section class="factory">
+        <div class="factory__wrap">
+          <div class="factory__text">
+            <h2 class="factory__title">Производство</h2>
+            <p class="factory__desc">
+              Современное оборудование позволяет произ- водить до 5 миллионов квадратных метров гофрокартона
+              ежемесячно.
+              Гофрокороба и лотки производятся по ГОСТу или чертежам заказчика.
+            </p>
+            <p class="factory__desc">
+              Досконально прорабатываем конструкции коробов и составы сырья, учитывая условия хранения, транспортировки
+              и
+              производства вашей продукции.
+            </p>
+            <p class="factory__desc">
+              Возможно нанесение цветной флексопечати на поверхность коробов.
+            </p>
+          </div>
+          <picture class="factory__big-image">
+            <source media="(min-width: 660px)" srcset="img/machine_desktop.jpg">
+            <img src="img/machine_mobile.jpg" alt="Производство">
+          </picture>
+        </div>
+        <div class="factory__slider slider">
+          <ul class="factory__list">
+            <li class="factory__item">
+              <div class="factory__item-image">
+                <img src="img/slide-1.jpg" alt="slide-1">
+              </div>
+            </li>
+            <li class="factory__item">
+              <div class="factory__item-image">
+                <img src="img/slide-2.jpg" alt="slide-2">
+              </div>
+            </li>
+            <li class="factory__item">
+              <div class="factory__item-image">
+                <img src="img/slide-3.jpg" alt="slide-3">
+              </div>
+            </li>
+            <li class="factory__item">
+              <div class="factory__item-image">
+                <img src="img/slide-4.jpg" alt="slide-4">
+              </div>
+            </li>
+          </ul>
+          <button class="slider__button slider__button--prev"><span class="visually-hidden">Prev</span></button>
+          <button class="slider__button slider__button--next"><span class="visually-hidden">Next</span></button>
+        </div>
+      </section>
+      <section class="clients">
+        <h2 class="clients__title">Наши клиенты</h2>
+        <ul class="clients__list">
+          <li class="clients__item">
+            <img src="img/client-1.jpg" alt="Восход">
+          </li>
+          <li class="clients__item">
+            <img src="img/client-2.jpg" alt="Стерх">
+          </li>
+          <li class="clients__item">
+            <img src="img/client-3.jpg" alt="Серебрянный Снег">
+          </li>
+          <li class="clients__item">
+            <img src="img/client-4.jpg" alt="Авдон">
+          </li>
+          <li class="clients__item">
+            <img src="img/client-5.jpg" alt="Бройлеры">
+          </li>
+          <li class="clients__item">
+            <img src="img/client-6.jpg" alt="Башкирское мороженное">
+          </li>
+          <li class="clients__item">
+            <img src="img/client-7.jpg" alt="Аллат">
+          </li>
+          <li class="clients__item">
+            <img src="img/client-8.jpg" alt="Альтернатива">
+          </li>
+          <li class="clients__item">
+            <img src="img/client-9.jpg" alt="Индюшкин">
+          </li>
+          <li class="clients__item">
+            <img src="img/client-10.jpg" alt="Салават стекло">
+          </li>
+          <li class="clients__item">
+            <img src="img/client-11.jpg" alt="Молочный фермер">
+          </li>
+          <li class="clients__item">
+            <img src="img/client-12.jpg" alt="Меги">
+          </li>
+        </ul>
+
+      </section>
+      <section class="reviews">
+        <h2 class="reviews__title">Отзывы о сотрудничестве</h2>
+        <div class="reviews__wrap slider">
+          <ul class="reviews__list">
+            <li class="reviews__item">
+              <img src="img/review-1.jpg" alt="review-1">
+            </li>
+            <li class="reviews__item">
+              <img src="img/review-2.jpg" alt="review-2">
+            </li>
+            <li class="reviews__item">
+              <img src="img/review-1.jpg" alt="review-3">
+            </li>
+          </ul>
+          <button class="slider__button slider__button--prev"><span class="visually-hidden">Prev</span></button>
+          <button class="slider__button slider__button--next"><span class="visually-hidden">Next</span></button>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="contacts__wrap">
+          <h2 class="contacts__title">Контакты</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item contacts__item--office">
+              <h3 class="contacts__item-title">Адрес офиса</h3>
+              <div class="contacts__desc">г. Уфа, Проспект октября, 46</div>
+            </li>
+            <li class="contacts__item">
+              <h3 class="contacts__item-title">Адрес склада</h3>
+              <div class="contacts__desc">г. Уфа, ул. Майкопская, 65/2</div>
+            </li>
+            <li class="contacts__item contacts__item--phone">
+              <h3 class="contacts__item-title">Тел. отдела продаж:</h3>
+              <div class="contacts__desc">8 (347) 271-54-28</div>
+              <div class="contacts__desc">8 (937) 363-30-00</div>
+            </li>
+            <li class="contacts__item contacts__item--email">
+              <h3 class="contacts__item-title">Е-mail</h3>
+              <div class="contacts__desc">urals.karton@gmail.com</div>
+            </li>
+            <li class="contacts__item">
+              <button class="button button--orange contacts__button" type="button">Заказать звонок</button>
+            </li>
+          </ul>
+        </div>
+        <picture class="contacts__map-image">
+          <img src="img/map_mobile.jpg" alt="Адрес офиса: г. Уфа, Проспект октября, 46">
+        </picture>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span class="footer__copyright">&copy; www.gofra-ural.ru 2018, все права защищены</span>
+    </footer>
+
+    <div class="overlay"></div>
+
+    <section class="modal-feedback">
+      <h2 class="modal-feedback__title">Форма обратной связи</h2>
+      <h3 class="modal-feedback__subtitle">Получите индивидуальное предложение</h3>
+      <h4 class="modal-feedback__offer">на производство и поставку изделий</h4>
+      <form class="modal-feedback__form">
+        <label class="modal-feedback__form-label" for="modal-feedback__phone">Введите ваш номер телефона:</label>
+        <div class="modal-feedback__form-wrap">
+          <input class="modal-feedback__phone" type="tel" id="modal-feedback__phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+          <button class="button button--orange modal-feedback__button" type="submit">Оставить заявку!</button>
+        </div>
+        <small class="modal-feedback__order"><sup>*</sup> Минимальный заказ 500шт</small>
+      </form>
+      <button class="modal-feedback__close" type="button"><span class="visually-hidden">Закрыть</span></button>
+    </section>
+  </div>
+
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>
