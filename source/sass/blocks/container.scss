@@ -1,11 +1,10 @@
 .container {
   margin: 0 auto;
   max-width: 320px;
-  background-color: $bg-badass;
 }
 
 @media (min-width: $tablet-width) {
   .container {
-    max-width: $desktop-width;
+    max-width: $max-width;
   }
 }

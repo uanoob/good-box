@@ -1,0 +1,21 @@
+.button {
+  color: $bg-white;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button--o {
+  color: $bg-grey;
+  border: 1px solid $bg-grey;
+  background-color: $bg-white;
+}
+
+.button--orange {
+  background-color: $bg-orange;
+  border: 1px solid $bg-orange;
+}

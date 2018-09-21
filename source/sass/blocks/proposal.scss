@@ -1,0 +1,100 @@
+.proposal {
+  // border: 1px solid orangered;
+  margin-bottom: 25px;
+  padding: 45px 15px;
+  color: $bg-white;
+  text-align: center;
+  background-color: $bg-grey;
+  background-image: url('../img/roll.jpg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.proposal__title {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.proposal__subtitle {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.proposal__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.proposal__form label {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.proposal__phone {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 300;
+  border: none;
+  border-radius: 5px;
+}
+
+.proposal__button {
+  margin-bottom: 10px;
+  padding: 15px 40px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.proposal__order {
+  font-size: 13px;
+  line-height: 30px;
+}
+
+@media (min-width: $tablet-width) {
+  .proposal {
+    margin-bottom: 80px;
+    padding: 55px 0;
+    background-image: url('../img/roll_desktop.jpg');
+  }
+
+  .proposal__title {
+    font-size: 32px;
+    font-weight: 400;
+  }
+
+  .proposal__subtitle {
+    font-size: 26px;
+  }
+
+  .proposal__form label {
+    font-size: 20px;
+  }
+
+  .proposal__phone {
+    padding: 20px 0;
+    width: 365px;
+    font-size: 20px;
+  }
+
+  .proposal__button {
+    padding: 20px 0;
+    width: 180px;
+    font-size: 15px;
+  }
+
+  .proposal__order {
+    font-size: 14px;
+  }
+}
