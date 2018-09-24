@@ -43,7 +43,7 @@
     "posthtml-include": "^1.2.0",
     "stylelint": "^9.5.0",
     "stylelint-config-recommended-scss": "^3.2.0",
-    "stylelint-scss": "^3.3.0"
+    "stylelint-scss": "^3.3.1"
   },
   "dependencies": {}
 }
