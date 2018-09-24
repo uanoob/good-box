@@ -63,9 +63,27 @@
 
 @media (min-width: $tablet-width) {
   .proposal {
+    position: relative;
     margin-bottom: 80px;
     padding: 55px 0;
     background-image: url('../img/roll_desktop.jpg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+  }
+
+  .proposal::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: $bg-blackopacity;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: -1;
   }
 
   .proposal__title {
