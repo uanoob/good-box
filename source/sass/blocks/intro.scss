@@ -70,6 +70,7 @@
 
 @media (min-width: $tablet-width) {
   .intro {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,17 +78,34 @@
     padding-top: 60px;
     padding-bottom: 80px;
     background-image: url('../img/boxes-desktop.jpg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $bg-blackopacity;
+    background-position: 0 0;
+    background-repeat: no-repeat;
   }
 
   .intro__image {
     display: block;
     margin-right: 30px;
+    z-index: 2;
   }
 
   .intro__wrap {
     max-width: 536px;
     box-sizing: border-box;
     text-align: left;
+    z-index: 2;
   }
 
   .intro__wrap::before {
